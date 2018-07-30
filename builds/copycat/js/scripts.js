@@ -7,7 +7,7 @@ $(function (){
     }
     
     $(window).resize(function(){
-        if($(window).width() < 768){
+        if($(window).width() < 638){
             $("#specialCol").addClass("bgGray");
             $(".wrapper").hide();
         }else{

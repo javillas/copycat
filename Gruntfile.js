@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                     sourcemap:'none',
                 },
                 files:{
-                    'process/css/style.css' : 'process/sass/*.scss',
+                    'process/css/style.css' : 'process/sass/style.scss',
                 }
             },
             dist:{
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                     sourcemap:'none',
                 },
                 files:{
-                    'process/css/style.min.css' : 'process/sass/*.scss',
+                    'process/css/style.min.css' : 'process/sass/style.scss',
                 }
             }
         },

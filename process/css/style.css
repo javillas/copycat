@@ -257,7 +257,19 @@ nav {
   position: relative;
 }
 
-/*Media Queries*/
+.text-headline {
+  text-transform: uppercase;
+  display: block;
+  color: #b40000;
+  font-size: 1.7rem;
+}
+
+.form-control {
+  border: 1px #000 solid;
+  border-radius: 0px;
+  padding: 0.675rem 0.75rem;
+}
+
 @media only screen and (min-width: 319px) {
   .bgGray {
     padding: 1rem;
@@ -334,6 +346,10 @@ nav {
   }
 }
 @media only screen and (min-width: 567px) {
+  #specialCol {
+    padding: 0;
+  }
+
   .dropShadow {
     margin-top: -3rem;
   }
